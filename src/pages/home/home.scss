@@ -1,3 +1,72 @@
-page-home {
+.home {
+  background-color: #e7e7e8;
+}
 
+.select-numbers-list {
+  padding-top: 5px;
+
+  .item-number {
+    background-color: #e7e7e8;
+    height: 0.5em;
+    min-height: 3em;
+
+
+    .number-button {
+      font-size: 1em;
+      width: 2.5em;
+      height: 2.5em;
+      padding: 0;
+    }
+  }
+}
+
+
+
+.grid-border {
+  border: 1px solid black;
+}
+
+.col-color {
+  background-color: #cdfbf1;
+}
+
+.hide-text {
+  color: transparent;
+}
+
+.text-color-same-number {
+  color: lightgrey;
+  background-color: grey;
+}
+
+.col-bottom {
+  border-bottom: 2px solid black;
+}
+
+.col-bottom-thin {
+  border-bottom: 0.9px dashed #bfbfbf;
+}
+
+.col-top {
+  border-top: 2px solid black;
+}
+
+.col-left {
+  border-left: 2px solid black;
+}
+
+.col-table {
+  border: 2px solid black;
+}
+
+.col-left-thin {
+  border-left: 0.9px dashed #bfbfbf;
+}
+
+.col-right {
+  border-right: 2px solid black;
+}
+
+.col-basic {
+  border-top: 1px solid black;
 }

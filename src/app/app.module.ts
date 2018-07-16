@@ -8,6 +8,8 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {AdMobPro} from "@ionic-native/admob-pro";
+import { AdmobProProvider } from '../providers/admob-pro/admob-pro';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AdMobPro,
+    AdmobProProvider
   ]
 })
 export class AppModule {}
